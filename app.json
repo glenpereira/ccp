@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "CCP",
+    "slug": "ccp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/elonlazer.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.glenpereira.ccp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "634882fe-0b59-4b94-ab0b-c4eb2c56afbb"
+      }
+    }
+  }
+}
